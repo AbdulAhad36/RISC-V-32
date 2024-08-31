@@ -1,1 +1,1 @@
-# RISC-V-32
+contains components of RISC_V 32 bit processor
