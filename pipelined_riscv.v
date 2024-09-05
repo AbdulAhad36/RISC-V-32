@@ -1,3 +1,5 @@
+#developed by Muhammad Abdul Ahad
+
 module pipelined_riscv(clk, rst);
   input clk, rst;
 
@@ -331,7 +333,7 @@ module instruction_memory(
    imem[36]= 8'b10110011; //b3
    imem[37]= 8'b00000001; //01
    imem[38]= 8'b00100010; //22
-   imem[39]= 8'b00000000; //00  
+   imem[39]= 8'b00000000; //00Â Â 
   end
 assign instruction= {imem[inst_addr+3],imem[inst_addr+2],
               imem[inst_addr+1],imem[inst_addr]};
